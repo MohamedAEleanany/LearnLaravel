@@ -11,7 +11,7 @@ class TestController extends Controller
         return view('index');
     }
 
-    function printName($name)
+    function printName($name = "Anonmous")
     {
         dd("Hello $name from PrintName Function");
     }
